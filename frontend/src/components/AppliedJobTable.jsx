@@ -14,7 +14,7 @@ const AppliedJobTable = () => {
                  <TableHead>Date</TableHead>
                  <TableHead>Job Role</TableHead>
                  <TableHead>Company</TableHead>
-                 <TableHead classname="text-right">Status</TableHead>
+                 <TableHead className="text-right">Status</TableHead>
             </TableRow>
         </TableHeader>
         <TableBody>
@@ -24,7 +24,7 @@ const AppliedJobTable = () => {
                   <TableCell>17-07-2024</TableCell>
                   <TableCell>Frontend Developer</TableCell>
                   <TableCell>Google</TableCell>
-                  <TableCell><Badge>Selected</Badge></TableCell>
+                  <TableCell className="text-right"><Badge className="text-white bg-black">Selected</Badge></TableCell>
                 </TableRow>
               ))
              }
